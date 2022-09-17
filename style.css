@@ -1,3 +1,8 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
 .col-1 {
     width: 8.33%;
 }
@@ -78,25 +83,29 @@
 
 .menu ul li {
     float: right;
+    margin-top: 15px;
+    margin-right: 30px;
 }
 
 .menu ul li a {
     text-decoration: none;
     color: white;
-    padding: 40px;
+    padding: 10px;
     font-weight: bold;
 }
 
 .menu ul li a:hover {
     color: black;
     background-color: white;
-    padding: 40px;
+    padding: 10px;
+    border-radius: 0px 15px 0px 15px;
 }
 
 #active {
     color: black;
     background-color: white;
-    padding: 40px;
+    padding: 10px;
+    border-radius: 0px 15px 0px 15px;
 }
 
 .banner {
@@ -110,12 +119,13 @@
     background-color: brown;
     color: white;
     text-shadow: 2px 2px 5px black;
+    margin-bottom: 10px;
 }
 
 .sd {
-    height: 400px;
+    height: 500px;
     border: 8px solid white;
-    background-color: bisque
+    background-color: bisque;
 }
 
 .sd:hover {
@@ -179,4 +189,21 @@ p {
 
 .sd {
     box-shadow: 5px 5px 20px black;
+}
+
+.btn {
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border: none;
+    margin-left: 130px;
+    background-color: brown;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
 }
